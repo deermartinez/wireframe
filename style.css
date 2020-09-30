@@ -1,0 +1,80 @@
+nav{
+    text-align:center;
+
+    word-spacing:50px;
+    text-size:large;
+
+}
+
+
+.jumbotron{
+text-align: center;
+font-family: "mukta";
+
+}
+
+
+body{
+background-color: brown;
+    height:100%;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+h1{
+    text-align:center;
+    font-family: "mukta";
+
+}
+h4{
+    font-family:"yanone kaffeesatz";
+}
+
+
+h5{
+    font-family: "kufam";
+
+
+}
+
+p{
+    font-family: "Quicksand";
+
+}
+
+
+.front{
+    text-align:center;
+
+}
+
+
+.row{
+    background-color: rgba(18, 71, 71, 0.2);
+    margin-left: -110px;
+    margin-right: -110px;
+
+
+}
+
+
+.description{
+padding-top: 50px;
+
+}
+
+
+
+
+footer{
+
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    width: 100%;
+    background-color: rgb(18, 36, 33);
+    color: black;
+    text-align: center;
+    
+}

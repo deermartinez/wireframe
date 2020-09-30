@@ -1,0 +1,35 @@
+
+/* alwyas flex wrap so you can view it on mobile 
+
+wrap-reverse-wraps it the other way
+no wrap 
+order messes up screenreaders
+flexgrow-change to take up a specific amount of room
+flex-shrink = takes away bottom space
+
+
+*/
+
+h1,h2{
+    text-align:center;
+
+}
+
+.flexbox-container{
+    display:flex;
+    justify-content: space-around;
+    align-content:space-between;
+
+
+
+}
+
+img{
+    display:flex;
+    flex-shrink: 1;
+
+
+}
+
+
+
