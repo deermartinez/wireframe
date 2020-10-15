@@ -10,26 +10,81 @@ flex-shrink = takes away bottom space
 
 */
 
+.top{
+    background-color: rgb(70, 37, 37);
+}
+
 h1,h2{
     text-align:center;
+    font-family: "Fondamento";
 
 }
 
 .flexbox-container{
     display:flex;
     justify-content: space-around;
-    align-content:space-between;
+    align-content: space-between;
 
 
+}
 
+
+body{
+    background-color:rgb(167, 111, 111);
 }
 
 img{
-    display:flex;
-    flex-shrink: 1;
+    width: 100%;
+    height: 300px;
+
+
+}
+
+.flexbox-container-two{
+    border:silver groove 30px;
+}
+
+.one{
+    align-self: center;
+    width:40%;
+    flex-flow:wrap;
+    flex-shrink:1;
 
 
 }
 
 
+.two{
+    border: brown double 20px;
 
+    flex-flow:wrap;
+    flex-shrink:1;
+
+
+}
+
+.three{
+    border: silver dashed;
+
+    flex-flow:wrap;
+    flex-shrink:1;
+
+
+}
+.six{
+    border: silver groove 10px;
+}
+
+.seven{
+    display: flex;
+    justify-content: space-around;
+    background-color: rgb(194, 148, 111);
+    flex-flow:wrap;
+    flex-shrink:1;
+
+}
+
+
+footer{
+    text-align: center;
+}
