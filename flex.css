@@ -11,7 +11,7 @@ flex-shrink = takes away bottom space
 */
 
 .top{
-    background-color: rgb(70, 37, 37);
+    background-color: rgba(70, 37, 37, 0.192);
 }
 
 h1,h2{
@@ -24,7 +24,7 @@ h1,h2{
     display:flex;
     justify-content: space-around;
     align-content: space-between;
-
+    border: brown double 20px;
 
 }
 
@@ -40,9 +40,7 @@ img{
 
 }
 
-.flexbox-container-two{
-    border:silver groove 30px;
-}
+
 
 .one{
     align-self: center;
@@ -55,7 +53,6 @@ img{
 
 
 .two{
-    border: brown double 20px;
 
     flex-flow:wrap;
     flex-shrink:1;
@@ -64,7 +61,7 @@ img{
 }
 
 .three{
-    border: silver dashed;
+    
 
     flex-flow:wrap;
     flex-shrink:1;
@@ -87,4 +84,31 @@ img{
 
 footer{
     text-align: center;
+}
+
+/* media query */
+/* width covers 0-480 pixels---phone */
+@media screen and (max-width:480px){ 
+    body{
+        background-color: seagreen;
+        
+    }
+
+}
+
+/* media query with a min width of 760px for a tablet */
+/* covers 481-768px */
+@media screen and (min-width: 780px){
+    body{
+        background-color: rgb(255, 0, 0);
+    }
+}
+/* min width of 1025px */
+/* width covers 765-1025px
+anything greater that 1025 */
+
+@media screen and (min-width: 1025px){
+    body{
+        background-color:rgb(0, 162, 255);
+    }
 }
