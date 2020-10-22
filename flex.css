@@ -19,12 +19,7 @@ h1,h2{
     font-family: "Fondamento";
 }
 
-.flexbox-container{
-    display:flex;
-    justify-content: space-around;
-    align-content: space-between;
-    border: brown double 20px;
-}
+
 
 img{
     widows: 100%;
@@ -35,12 +30,22 @@ body{
     background-color:rgb(167, 111, 111);
 }
 
+.flexbox-container{
+    display:flex;
+    justify-content: space-around;
+    align-content: space-between;
+    border: brown double 20px;
+    flex-flow:wrap;
+    flex-shrink:1;
+    
+}
 
 .one{
-    align-self: center;
+    align-self: left;
     width:40%;
     flex-flow:wrap;
     flex-shrink:1;
+    
 }
 
 
