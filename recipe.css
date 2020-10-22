@@ -1,0 +1,59 @@
+body {
+    background: rgb(102, 95, 86);
+}
+
+.col-6{
+    background: rgba(122, 111, 96, 0.52);
+
+
+}
+.mid{
+    position:relative;
+    text-align:center;
+    padding-left: 400px;
+}
+
+
+
+h2,h4 {
+
+color: red;
+font-size: 20px;
+color: black;
+font-family: fantasy;
+animation-name: headings;
+animation-duration: 10s;
+animation-iteration-count:infinite;
+animation-delay:10s;
+animation-direction:alternate;
+animation-timing-function: ease-in-out;
+animation-fill-mode: forwards;
+animation-play-state: running;
+}
+
+@keyframes headings{
+    0%  {color:rgb(0, 0, 0);  }
+    25%  {color:red; }
+    50%  {color:blue; }
+    75%  {color:white; }
+    100% {color: black; }
+
+
+
+}
+h1{
+    position:relative;
+    text-align:center;
+    animation-name:header;
+    animation-duration: 6s;
+    animation-iteration-count: 1;
+
+}
+
+@keyframes header{
+    0%  {color:rgb(0, 0, 0); left:0px; top: 0; }
+    25%  {color:rgb(224, 42, 42); left:100px; top: 0; }
+    75%  {color:rgb(235, 79, 183); left:-200px; top: 0; }
+    75%  {color:rgb(236, 203, 18); left:-100px; top: 0; }
+    100%  {color:rgb(2, 1, 1); left:0; top: 0;  }
+}
